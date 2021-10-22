@@ -1,1 +1,10 @@
-
+spring:
+  application:
+    name: elasticsearch-demo
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200
+      username: elastic
+      password: 12345678
+server:
+  port: 10888
